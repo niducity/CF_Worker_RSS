@@ -36,8 +36,9 @@ async function handleRequest(request) {
   const rssContent = `
     <rss version="2.0">
       <channel>
-        <title>Sample RSS Feed</title>
-        <description>Sample RSS feed generated from specified webpage</description>
+        <title>中南财经政法大学教务部</title>
+        <link>https://jwc.zuel.edu.cn/main.htm</link>
+        <description>中南财经政法大学教务部学生通知</description>
         ${rssItems.join('')}
       </channel>
     </rss>
